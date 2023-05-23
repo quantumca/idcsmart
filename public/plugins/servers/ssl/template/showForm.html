@@ -1,0 +1,72 @@
+<script>
+    setTimeout(function(){$('.toast.toast-error').hide()},100);
+    var is_companyInfo = e.data.is_companyInfo
+    isCompanyInfo = e.data.is_companyInfo
+    for (let item of $('.verificationDiv_t')[0].children) {
+        if (is_companyInfo == 0) {
+            item.children[0].classList.remove("redStar");
+        } else {
+            item.children[0].classList.add("redStar");
+        }
+    }
+
+    if (is_companyInfo == 0) {
+        $('.company-box,#issueseniorDiv,#issueseniorDivTitle').hide();
+    }
+    var algorithm_tips = e.data.algorithm_tips
+    if (algorithm_tips != '') {
+        $('#algorithmTips')[0].placeholder = algorithm_tips
+    } else {
+        $('#algorithmTips')[0].placeholder = ''
+    }
+    $('input[name="id"]').val(location.search.split(/[?&]id=/)[1].split(/[?&]/)[0]);
+    if (e.data.flex_num == 1) {
+        $('#domainVerification').attr('name', 'adfsf');
+        $('#issueDomainTow').hide();
+        $('.sslIssueDiv').css('height', '130px');
+        $('#IssueDomain').attr('name', 'domainNames');
+    } else {
+        $('#IssueDomain').attr('name', 'adfsf');
+        $('#issueDomainTow label').addClass('red_label').text('签发域名');
+        $('#IssueDomain').parent().parent().hide();
+        $('#issueDomainTow').show();
+        $('.sslIssueDiv').css('height', '175px');
+        if ($('#IssueDomain').val().trim()) {
+            $('#domainVerification').val(
+                $('#IssueDomain').val().trim() + ($('#domainVerification').val().trim() ? ('\n' + $('#domainVerification').val().trim()) : '')
+            );
+            $('#IssueDomain').val('');
+        }
+    }
+    $('#domainNum').text(e.data.flex_num)
+    var arrtwo = []
+    var arr = $("#domainVerification").val().split("\\n").map(item => {
+        if (item.replace(/\s+/g, "") != '') arrtwo.push(item)
+    })
+    $('#currentNum').text(arrtwo.length)
+    $('#sslIssue').modal('show');
+    $('#domainVerification,#IssueDomain').attr('placeholder', e.data.domain_tips)
+    $('#issus_form>.row>.col-sm-6').eq(1).hide();
+    $('#issus_form>.row>.col-sm-6').eq(0).removeClass('col-sm-6').addClass('col-sm-10');
+
+    if (!$('#issueCsrRadios1').attr('data-event-binded')) {
+        $('#issueCsrRadios1').on('click', function () {
+            if (e.data.flex_num == 1) {
+                $('.sslIssueDiv').css('height', '130px');
+            } else {
+                $('.sslIssueDiv').css('height', '175px');
+            }
+            $('#issueCsrRadios1').attr('data-event-binded', 1);
+        })
+    }
+    if (!$('#issueCsrRadios2').attr('data-event-binded')) {
+        $('#issueCsrRadios2').on('click', function () {
+            if (e.data.flex_num == 1) {
+                $('.sslIssueDiv').css('height', '190px');
+            } else {
+                $('.sslIssueDiv').css('height', '270px');
+            }
+            $('#issueCsrRadios2').attr('data-event-binded', 1);
+        })
+    }
+</script>
