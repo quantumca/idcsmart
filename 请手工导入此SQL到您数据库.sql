@@ -65,7 +65,7 @@ CREATE TABLE IF NOT EXISTS `shd_certssl_download` (
   `midCertContent` text NOT NULL COMMENT '中间证书',
   `notBefore` varchar(20) NOT NULL DEFAULT '0' COMMENT '证书签发日期(毫秒)',
   `notAfter` varchar(20) NOT NULL DEFAULT '0' COMMENT '证书到期日期（毫秒）',
-  `privatekey` varchar(100) NOT NULL DEFAULT '' COMMENT '私钥（用户自己生成的置空）',
+  `privatekey` text DEFAULT NULL COMMENT '私钥（用户自己生成的置空）',
   `create_time` int(11) NOT NULL DEFAULT '0' COMMENT '创建时间',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
