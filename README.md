@@ -1,0 +1,36 @@
+# 智简魔方财务系统（魔方财务）SSL模块使用教程
+
+## 导入数据表
+
+因为魔方财务系统默认数据库不包含SSL相关的表（具体可见 `public/install/thinkcmf.sql` 中创建 `shd_certssl_product`、`shd_certssl_download`、`shd_certssl_orderinfo` 等表后立即又删除），
+我们需要先恢复这部分数据表。
+
+1. 在宝塔复制数据库密码
+
+2. 宝塔点开PhpMyAdmin
+![宝塔点开PhpMyAdmin](https://github.com/quantumca/repo-docs-pictures/blob/master/0.png?raw=true)
+
+3. 通过面板访问
+![通过面板访问](https://github.com/quantumca/repo-docs-pictures/blob/master/1.png?raw=true)
+
+4. 在PhpMyAdmin登录界面，粘贴输入密码
+![粘贴输入密码](https://github.com/quantumca/repo-docs-pictures/blob/master/2.png?raw=true)
+
+5. 选择魔方财务系统安装的数据库
+![选择魔方财务系统安装的数据库](https://github.com/quantumca/repo-docs-pictures/blob/master/3.png?raw=true)
+
+6. 点击导入
+![点击导入](https://github.com/quantumca/repo-docs-pictures/blob/master/4.png?raw=true)
+
+7. 本插件解压后，根目录下存在一个 `请手工导入此SQL到您数据库.sql`，在 PhpMyAdmin 导入界面中，选择此文件
+![选择`请手工导入此SQL到您数据库.sql`](https://github.com/quantumca/repo-docs-pictures/blob/master/4.png?raw=true)
+
+
+## 上传插件
+
+在导入完成数据库后，您需要上传本插件到魔方财务的服务器上。
+
+1. 将 `public/plugins/gateways/ssl` 上传到魔方财务的服务器的 `public/plugins/gateways/ssl` 目录下
+
+2. 将 `public/plugins/servers/ssl` 上传到魔方财务的服务器的 `public/plugins/servers/ssl` 目录下
+
