@@ -38,10 +38,13 @@
 1. 进入后台“设置”->“商品设置”->“通用接口”->“接口”->“创建接口”
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/17.png?raw=true" style="width: 862px"/>
 
+2. 在创建接口的界面，名称输入“SSL”，“服务器模块“选择”SSL”，用户名和密码填写您在我们SSL控制台的“合作”->“API & Keys”创建的API密钥。其它项可以随便输入
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/18.png?raw=true" style="width: 787px"/>
 
+3. 在“接口分组”中，创建一个名为“SSL分组”的分组，并将前面创建的“SSL”接口添加进已选接口
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/19.png?raw=true" style="width: 861px"/>
 
+4. 后台“设置”->“商品设置”->“商品管理”->“新增商品”
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/20.png?raw=true" style="width: 859px"/>
 
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/21.png?raw=true" style="width: 823px"/>
