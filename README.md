@@ -11,19 +11,16 @@
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/0.png?raw=true" style="width: 614px"/>
 
 3. 通过面板访问
-<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/1.png?raw=true" style="width:50%"/>
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/1.png?raw=true" style="width: 484px"/>
 
 4. 在PhpMyAdmin登录界面，粘贴输入密码
-<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/2.png?raw=true" style="width:50%"/>
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/2.png?raw=true" style="width: 468px"/>
 
 5. 选择魔方财务系统安装的数据库
-<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/3.png?raw=true" style="width:50%"/>
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/3.png?raw=true" style="width: 503px"/>
 
-6. 点击导入
-<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/4.png?raw=true" style="width:50%"/>
-
-7. 本插件解压后，根目录下存在一个 `请手工导入此SQL到您数据库.sql`，在 PhpMyAdmin 导入界面中，选择此文件
-<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/4.png?raw=true" style="width:50%"/>
+6. 点击导入。本插件解压后，根目录下存在一个 `请手工导入此SQL到您数据库.sql`，在 PhpMyAdmin 导入界面中，选择此文件
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/4.png?raw=true" style="width: 552px"/>
 
 
 ## 二. 上传插件
