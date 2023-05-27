@@ -48,3 +48,6 @@
 
 4. 后台“设置”->“商品设置”->“商品管理”->“新增商品”
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/21.png?raw=true" style="width: 823px"/>
+
+5. 名字输入您要配置的SSL产品，例如“XXX DV SSL证书”，类型、商品组选择“ssl证书”
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/22.png?raw=true" style="width: 1491px"/>
