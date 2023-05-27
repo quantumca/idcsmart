@@ -23,12 +23,6 @@ class ComposerStaticInit3e099ca2beb44b2dc4a27feb841cc0e3
         array (
             'QuantumCA\\Sdk\\' => 14,
         ),
-        'G' => 
-        array (
-            'GuzzleHttp\\Stream\\' => 18,
-            'GuzzleHttp\\Ring\\' => 16,
-            'GuzzleHttp\\' => 11,
-        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -43,18 +37,6 @@ class ComposerStaticInit3e099ca2beb44b2dc4a27feb841cc0e3
         'QuantumCA\\Sdk\\' => 
         array (
             0 => __DIR__ . '/..' . '/quantumca/sdk/src',
-        ),
-        'GuzzleHttp\\Stream\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/guzzlehttp/streams/src',
-        ),
-        'GuzzleHttp\\Ring\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/guzzlehttp/ringphp/src',
-        ),
-        'GuzzleHttp\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
     );
 

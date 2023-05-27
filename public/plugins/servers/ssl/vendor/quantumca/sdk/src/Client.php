@@ -105,7 +105,7 @@ class Client
             $api = $arguments[0];
             $resource = '/' . $api;
             $uri = $this->apiOrigin . $resource;
-            $resource = parse_url($uri)['path'];
+            $resource = parse_url($uri, PHP_URL_PATH);
 
             $parameters = isset($arguments[1]) ? $arguments[1] : [];
             $parameters = $this->sign($resource, $parameters, $this->accessKeyId, $this->accessKeySecret);

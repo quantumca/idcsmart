@@ -10,33 +10,6 @@
         'dev' => true,
     ),
     'versions' => array(
-        'guzzlehttp/guzzle' => array(
-            'pretty_version' => '5.3.4',
-            'version' => '5.3.4.0',
-            'reference' => 'b87eda7a7162f95574032da17e9323c9899cb6b2',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../guzzlehttp/guzzle',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'guzzlehttp/ringphp' => array(
-            'pretty_version' => '1.1.1',
-            'version' => '1.1.1.0',
-            'reference' => '5e2a174052995663dd68e6b5ad838afd47dd615b',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../guzzlehttp/ringphp',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'guzzlehttp/streams' => array(
-            'pretty_version' => '3.0.0',
-            'version' => '3.0.0.0',
-            'reference' => '47aaa48e27dae43d39fc1cea0ccf0d84ac1a2ba5',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../guzzlehttp/streams',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'quantumca/sdk' => array(
             'pretty_version' => 'v0.0.3',
             'version' => '0.0.3.0',

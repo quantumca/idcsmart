@@ -9,7 +9,4 @@ return array(
     'server\\ssl\\controller\\' => array($baseDir . '/controller'),
     'React\\Promise\\' => array($vendorDir . '/react/promise/src'),
     'QuantumCA\\Sdk\\' => array($vendorDir . '/quantumca/sdk/src'),
-    'GuzzleHttp\\Stream\\' => array($vendorDir . '/guzzlehttp/streams/src'),
-    'GuzzleHttp\\Ring\\' => array($vendorDir . '/guzzlehttp/ringphp/src'),
-    'GuzzleHttp\\' => array($vendorDir . '/guzzlehttp/guzzle/src'),
 );
