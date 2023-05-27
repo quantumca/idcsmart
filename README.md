@@ -46,19 +46,26 @@
 
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/20.png?raw=true" style="width: 859px"/>
 
-4. 后台“设置”->“商品设置”->“商品管理”->“新增商品”
+4. 导航设置
+- 进入“设置”->“站务设置”->“导航管理”->“所有导航”->“默认菜单（系统-多语言）（当前会员中心导航）”右侧“修改”
+  <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/28.png?raw=true" style="width: 1103px"/>
+
+- 滑到菜单底部，点击加号，在弹出新增页面中，页面类型选择“产品管理”，名称输入“SSL证书”，勾选“高级”，此时页面会多出“模板”的可选项，选择`service_ssl.tpl`，点击确定创建
+<img width="1192" alt="image" src="https://github.com/quantumca/idcsmart/assets/6964962/12b3f938-ac9d-47a4-9f79-45eafe6de6eb">
+
+5. 后台“设置”->“商品设置”->“商品管理”->“新增商品”
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/21.png?raw=true" style="width: 823px"/>
 
-5. 名字输入您要配置的SSL产品，例如“XXX DV SSL证书”，类型、商品组选择“ssl证书”。会员中心导航不一定有“SSL证书”，您可以创建一个名为SSL证书的导航
+6. 名字输入您要配置的SSL产品，例如“XXX DV SSL证书”，类型、商品组选择“ssl证书”。会员中心导航选择“SSL证书”
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/22.png?raw=true" style="width: 1491px"/>
 
-6. 在完善商品基本信息后，进入“定价”->“周期”，将除去1年后所有周期全部关闭（禁用）；价格默认设置为 0
+7. 在完善商品基本信息后，进入“定价”->“周期”，将除去1年后所有周期全部关闭（禁用）；价格默认设置为 0
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/23.png?raw=true" style="width: 1421px"/>
 
-7. 在“自动开通”中，开通方式选择“自动化接口”，接口分组选择“SSL分组（SSL）”，此时会出来我们模块额外多出的选项，您可以开启“支持普通域名”+“支持通配符”+“支持IPv4“，IPv6暂不支持。然后发货产品选择您所需要售卖的品牌下的产品，开通方式选择“付款后自动”
+8. 在“自动开通”中，开通方式选择“自动化接口”，接口分组选择“SSL分组（SSL）”，此时会出来我们模块额外多出的选项，您可以开启“支持普通域名”+“支持通配符”+“支持IPv4“，IPv6暂不支持。然后发货产品选择您所需要售卖的品牌下的产品，开通方式选择“付款后自动”
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/24.png?raw=true" style="width: 1201px"/>
 
-8. 在“产品配置”中，“添加配置项”，
+9. 在“产品配置”中，“添加配置项”，
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/25.png?raw=true" style="width: 761px"/>
 
 - 配置项名称规则为 `域名类型|中文名称`，例如 `standard|普通域名` 或者 `wildcard|通配符`。
@@ -73,3 +80,29 @@
 
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/26.png?raw=true" style="width: 1103px"/>
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/27.png?raw=true" style="width: 1083px"/>
+
+## 四. 测试下单
+
+1. 在会员前台控制台中，产品管理中，点击“订购产品”
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/31.png?raw=true" style="width: 971px"/>
+
+2. 选择所需购买的普通域名和通配符数量
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/32.png?raw=true" style="width: 1005px"/>
+
+3. 结账
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/33.png?raw=true" style="width: 993px"/>
+
+4. 输入域名，提交
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/34.png?raw=true" style="width: 1189px"/>
+
+5. 点击“域名验证”
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/35.png?raw=true" style="width: 1185px"/>
+
+6. 根据提示的DNS和文件验证信息，完成域名验证后，点击“立即检查”
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/36.png?raw=true" style="width: 1188px"/>
+
+7. CA收到通知会立即对您的域名进行验证，如果是多域名可能会花费较长一些时间。大概30秒～2分钟。
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/37.png?raw=true" style="width: 461px"/>
+
+8. CA签发证书后，您就可以下载证书
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/38.png?raw=true" style="width: 1185px"/>
