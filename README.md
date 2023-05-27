@@ -44,7 +44,7 @@
 3. 在“接口分组”中，创建一个名为“SSL分组”的分组，并将前面创建的“SSL”接口添加进已选接口
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/19.png?raw=true" style="width: 861px"/>
 
-4. 后台“设置”->“商品设置”->“商品管理”->“新增商品”
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/20.png?raw=true" style="width: 859px"/>
 
+4. 后台“设置”->“商品设置”->“商品管理”->“新增商品”
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/21.png?raw=true" style="width: 823px"/>
