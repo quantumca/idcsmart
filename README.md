@@ -8,7 +8,7 @@
 1. 在宝塔复制数据库密码
 
 2. 宝塔点开PhpMyAdmin
-<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/0.png?raw=true" style="width:50%"/>
+<img srcset="https://github.com/quantumca/repo-docs-pictures/blob/master/0.png?raw=true 2x"/>
 
 3. 通过面板访问
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/1.png?raw=true" style="width:50%"/>
