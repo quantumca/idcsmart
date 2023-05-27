@@ -34,4 +34,13 @@
 
 2. 将 `public/plugins/servers/ssl` 上传到魔方财务的服务器的 `public/plugins/servers/ssl` 目录下
 
-## 三. 配置商品
+## 三. 配置插件
+
+接下来，您需要进入后台配置插件
+
+1. 进入后台“设置”->“商品设置”->“通用接口”->“接口”->“创建接口”
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/17.png?raw=true" style="width:50%"/>
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/18.png?raw=true" style="width:50%"/>
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/19.png?raw=true" style="width:50%"/>
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/20.png?raw=true" style="width:50%"/>
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/21.png?raw=true" style="width:50%"/>
