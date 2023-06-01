@@ -27,9 +27,7 @@
 
 在导入完成数据库后，您需要上传本插件到魔方财务的服务器上。
 
-### 1. 将 `public/plugins/gateways/ssl` 上传到魔方财务的服务器的 `public/plugins/gateways/ssl` 目录下
-
-### 2. 将 `public/plugins/servers/ssl` 上传到魔方财务的服务器的 `public/plugins/servers/ssl` 目录下
+将 `public/plugins/servers/ssl` 上传到魔方财务的服务器的 `public/plugins/servers/ssl` 目录下。
 
 ## 三. 配置插件
 
