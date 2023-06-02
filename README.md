@@ -12,7 +12,7 @@
 接下来，您需要进入后台配置插件
 
 ### 1. 进入后台“设置”->“商品设置”->“通用接口”->“接口”->“创建接口”
-<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/17.png?raw=true" style="width: 862px; border: 3px solid #444;"/>
+<img src="https://github.com/quantumca/repo-docs-pictures/blob/master/17.png?raw=true"/>
 
 ### 2. 在创建接口的界面，名称输入“SSL”，“服务器模块“选择”SSL”，用户名和密码填写您在我们SSL控制台的“合作”->“API & Keys”创建的API密钥。其它项可以随便输入
 <img src="https://github.com/quantumca/repo-docs-pictures/blob/master/18.png?raw=true" style="width: 787px"/>
